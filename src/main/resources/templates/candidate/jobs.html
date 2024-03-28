@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vagas Disponíveis - Gestão Vegas RH</title>
+</head>
+<body class="bg-gray-800">
+    <nav class="bg-gray-600">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-start text-white">
+                <div class="space-x-4">
+                    <a href="/candidate/profile">Profile</a>
+                    <a href="/candidate/jobs" class="bg-gray-900 rounded px-3 py-2">Vagas</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto mt-24 text-center">
+        <form action="">
+            <input type="text" name="filter"
+                   class="bg-gray-50 text-gray-500 rounded w-96 p-3 focus:outline-none"
+                   placeholder="Busca de vaga">
+            <button class="bg-green-600 text-white w-24 p-3 ml-2 rounded hover:bg-gree-500">Buscar</button>
+        </form>
+    </div>
+</body>
+</html>
